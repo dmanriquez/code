@@ -5,6 +5,9 @@
   "main": "calculadora.js",
   "scripts": {
     "calculadora": "ts-node calculadora.ts",
+    "ejercicio-variable": "ts-node ejercicio-variable.ts",
+    "ejercicio2": "ts-node ejercicios-clase-2.ts",
+    "ejercicio-propuesto": "ts-node ejercicios-propuestos-1.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
