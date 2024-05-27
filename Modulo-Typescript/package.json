@@ -5,9 +5,13 @@
   "main": "calculadora.js",
   "scripts": {
     "calculadora": "ts-node calculadora.ts",
-    "ejercicio-variable": "ts-node ejercicio-variable.ts",
-    "ejercicio2": "ts-node ejercicios-clase-2.ts",
+    "clase1": "ts-node ejercicios-clase-1.ts",
+    "clase2": "ts-node ejercicios-clase-2.ts",
+    "clase3": "ts-node ejercicios-clase-3.ts",
+    "clase4": "ts-node ejercicios-clase-4.ts",
     "ejercicio-propuesto": "ts-node ejercicios-propuestos-1.ts",
+    "testing": "ts-node testing.ts",
+    "prepara-lab1": "ts-node guia-preparacion-lab1.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
