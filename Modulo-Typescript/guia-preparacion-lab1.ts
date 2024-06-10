@@ -9,11 +9,12 @@ let cantidadAnios = 10;
 // Imprimimos la cabecera
 console.log("Año Precio");
 // Ciclo para mostrar los resultados
-for (let año = 1; año <= cantidadAnios; año++) {
+for(let año = 1; año <= cantidadAnios; año++) {
   // Multiplicamos el valor por el incremento
-  valorProducto *= 1 + tasadeAumento / 100;
+  valorProducto *= (1 + tasadeAumento / 100);
   // Imprimimos el resultado
-  console.log(`${año} $${valorProducto}`);
+  console.log(`${año} $${valorProducto - (valorProducto%1)}`);
+  //console.log(`${año} $${valorProducto | 0}`);
 }
 
 
@@ -38,11 +39,16 @@ console.log(`El número invertido es: ${numeroInvertido}`);
 //////////// EJERCICIO 3 ////////////
 
 // Mensaje del loro
-let mensajeLoro: string = "Hola mundo";
+let msjLoro: string = "Hola, Lorito!";
 // Cantidad de repeticiones
-let repiteMensaje: number = 5;
+let repiteMsj: number = 3;
+// Creamos variable que almacena el resultado del ciclo
+let msjFinal: string = "";
 // Ciclo
-for (let i = 0; i < repiteMensaje; i++) {
-  // Imprimir el mensaje
-  console.log(`${mensajeLoro}`);
+for (let i = 0; i < repiteMsj; i++) {
+  msjFinal += msjLoro;
+  // Es lo mismo que escribir 
+  // msjFinal = msjFina + msjLoro + " ";
 }
+// Imprimir el mensaje
+console.log(`${msjFinal}`)
