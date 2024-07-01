@@ -135,7 +135,7 @@ infoReserva.setSalidaReservacion(new Fecha(29,12,2026));
 console.log(infoReserva.getFormatoReservacion());
 
 console.log(infoReserva.getDuracionReservacion());
-console.log(Reflect.ownKeys(infoReserva));
+//console.log(Reflect.ownKeys(infoReserva));
 
 
 // Ejercicio 4

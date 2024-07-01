@@ -28,6 +28,7 @@
     "lab2-p1": "ts-node laboratorio-2-P1.ts",
     "lab2-p1-modulo": "ts-node P1-acceso.ts",
     "lab2-p2": "ts-node laboratorio-2-P2.ts",
+    "lab3-prueba": "ts-node lab3/prueba.ts",
     "funciones": "ts-node funciones.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
